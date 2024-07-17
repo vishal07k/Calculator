@@ -8,8 +8,7 @@ public class GUI extends JFrame {
 		setTitle("Calculator");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
-public void show(){
-}
+
 	public static void main(String[] args) {
 		new GUI();
 
