@@ -1,13 +1,17 @@
 package com.itep.cal;
 import java.awt.*;
-public class GUI {
+public class GUI extends JFrame {
 
 	public GUI() {
-		// TODO Auto-generated constructor stub
+		setVisible(true);
+		setSize(400,400);
+		setTitle("Calculator");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
-
+public void show(){
+}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		new GUI();
 
 	}
 
