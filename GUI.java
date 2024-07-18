@@ -3,6 +3,8 @@ import java.awt.*;
 public class GUI extends JFrame {
 
 	public GUI() {
+		JLabel j1=new JLable();
+		j1.add();
 		setVisible(true);
 		setSize(400,400);
 		setTitle("Calculator");
